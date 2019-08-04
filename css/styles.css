@@ -18,7 +18,7 @@ img { width: 100%; height: auto; }
 
 .display { margin-top: 4rem; }
 
-.card { padding: 2rem; }
+.card { padding: 1rem; }
 
 .btn { border-radius: 0 0.3rem 0.3rem 0; padding: 0rem 4rem; font-size: 1.6rem; }
 
@@ -37,8 +37,10 @@ img { width: 100%; height: auto; }
 
 .name, .street { font-size: 1.8rem; }
 
-.anim { width: 10rem; margin: 0 auto; display: none; }
+.anim { width: 8rem; margin: 0 auto; display: none; }
 
 .dblock { display: block; }
+
+.dish__pic { width: 8rem; height: auto; margin-right: 1rem; }
 
 /*# sourceMappingURL=styles.css.map */
