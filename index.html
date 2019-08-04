@@ -25,17 +25,17 @@
       <div class="container">
             <div class="feedback">Please enter a correct value</div>
         <main class="main">
-          <form action="" method="post" class="form">
+            <!-- form -->
+          <form action="" method="post" class="form" id="searchForm">
             <div class="form-group">
-              <select name="category" class="form-control" id="category">
-                <option value="1">One</option>
-                <option value="2">two</option>
+              <select class="custom-select" id="searchCategory">
+                
               </select>
             </div>
             <div class="form-group d-flex">
-              <input type="text" class="form-control" />
+              <input type="text" class="form-control" id="searchCity"/>
               <input
-                type="button"
+                type="submit"
                 class="btn btn-outline-danger "
                 value="Search"
               />
@@ -44,8 +44,12 @@
         </main>
         <section class="display ">
           <div class="container ">
+              <div class="anim">
+                  <img src="./images/gif-anim.gif" class="loader" alt="">
+              </div>
             <div class="cards">
-              <div class="card">
+              <!-- card -->
+              <!-- <div class="card">
                 <div class="top">
                   <div class="dish__pic">
                     <img
@@ -80,9 +84,10 @@
                     ><i class="fas fa-book"></i> WEBSITE</a
                   >
                 </div>
-              </div>
-              <!-- end cards -->
+              </div> -->
+              <!-- end card -->
             </div>
+            <!-- end cards -->
           </div>
         </section>
       </div>

@@ -37,4 +37,8 @@ img { width: 100%; height: auto; }
 
 .name, .street { font-size: 1.8rem; }
 
+.anim { width: 10rem; margin: 0 auto; display: none; }
+
+.dblock { display: block; }
+
 /*# sourceMappingURL=styles.css.map */
